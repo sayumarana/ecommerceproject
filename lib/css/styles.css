@@ -1,1 +1,209 @@
+ http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
 /* This is going to be used for any modified/custom styling */
+body, html {
+    height: 100%;
+    font-family: 'Old Standard TT', serif;
+}
+
+@media (max-width: 768px) {
+    #slider {
+        text-align: center;
+    }
+}
+
+.navbar {
+    background-color: wheat;
+    font-family: 'Old Standard TT', serif;
+    padding: 300;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.navbar-toggler-icon {
+    color: white;
+}
+
+.main-header {
+    text-align: center;
+    margin: 20px 20px;
+}
+
+.container{
+	width:540px;
+	margin:40px auto;
+    overflow:auto;
+    display: flex;
+    justify-content: center;
+}
+
+.slider-inner{
+	width:400px;
+	height:560px;
+	position:relative;
+	overflow:hidden;
+	float:left;
+	padding:0;
+	border:#666 solid 1px;
+}
+
+.slider-inner img{
+	display: none;
+	width:400px;
+	height:560px;
+}
+
+.slider-inner img.active{
+	display:inline-block;
+}
+
+.prev,.next{
+	float: left;
+	margin-top:280px;
+    cursor: pointer;
+    color: bisque;
+}
+
+.prev{
+	position:relative;
+	margin-right:-25px;
+	z-index:100;
+}
+
+.next{
+	position:relative;
+	margin-left:-25px;
+	z-index:100;
+}
+
+
+.gen-info {
+    text-align: center;
+    padding-top: 20px;
+    margin: 20px 20px;
+}
+
+.img-size {
+	width: 200px;
+    height: 150px;
+    margin-top: 100px;
+    margin-left: 24px;
+}
+
+.col-4 {
+margin: 20px 20px;
+}
+
+p {
+    font-size: 17px;
+}
+
+h3 {
+    padding-top: 12px;
+    text-align: center;
+}
+
+.btn {
+    background-color: rgb(8, 58, 8);
+    color: white;
+    padding: 8px;
+    margin-left: 46%;
+}
+.btn-p {
+    background-color: rgb(8, 58, 8);
+    color: white;
+    padding: 8px;
+    margin-left: 30%;
+    border-radius: 18px;
+}
+
+.main-pics {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    text-align: center;
+}
+
+.col-4 {
+    
+}
+
+.footer-main-div {
+    background-color: wheat;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 10px;
+    padding: 15px;
+}
+
+.footer-social-icons {
+    margin-left: 47%;
+    padding: 20px;
+
+}
+
+
+h1 {
+    margin-top: 120px;
+    text-align: center;
+}
+

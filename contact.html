@@ -7,14 +7,91 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="lib/css/styles.css"/>
+    <script src="lib/js/styles.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT:400,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/04b3baf344.js"></script>
 
-    <title>Hello, world!</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+      <nav class="navbar navbar-expand-lg fixed-top">
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation-bar">
+            <span class="navbar-toggler-icon">&#9776;</span>
+          </button>
+    
+          <a class="navbar-brand" href="#"><img src="logo.png" class="img-fluid"></a>
+          
+          <div class="collapse navbar-collapse" id="navigation-bar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
+                <li class="nav-item"><a class="nav-link" href="product.html">PRODUCTS</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">CONTACT US</a></li>
+            </ul>
+          </div>
+        </nav>
+
+        <h1>Mother Heals Herb Shop</h1>
+        <p class="email">Email: motherheals@herbshop.com</p>
+            
+        <div class="container">
+            <address>
+                <ul> Our Address:
+                    <li>222 Providence Rd</li>
+                    <li>Suite 111</li>
+                    <li>Austin, Texas USA</li>
+                </ul>
+            </address> 
+          </div>
+        <div class="container">
+            <form action="#" method="POST" name="contact us">
+                <fieldset>
+                    <legend> Contact Us </legend>
+                    <label for="email"> Email:</label>
+                    <input type="text" name="email" id="email"><br><br>
+                    <label for="first name"> First Name:</label>
+                    <input type="text" name="first name" id="first name"><br><br>
+                    <label for="last name"> Last Name:</label>
+                    <input type="text" name="last name" id="last name"><br><br>
+                    <label for="essay"> Questions?</label><br>
+                    <textarea name="essay" rows="10" cols="30" id="essay"></textarea>
+                </fieldset>
+    
+                <br>
+    
+                <input class="submit" type="submit" value="Submit">
+            </form>
+          </div>
+
+
+
+
+
+
+
+
+   <!--FOOTER-->
+        <div class="footer-main-div">
+            <h2> Like what you see? </h2>
+          <a href="contact.html">
+              <button type="button" class="btn btn-primary">
+                  Contact Us
+              </button>
+          </a>
+          
+            <div class="footer-social-icons">
+              <ul class="list-inline">
+                <li class="list-inline-item"><a href="#" target="blank"><i class="fab fa-facebook-f"></i></a></li>
+                <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+              </ul>
+            </div>
+          </div>
+   <!--FOOTER END-->
 
     <!-- Optional JavaScript -->
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
 </html>
